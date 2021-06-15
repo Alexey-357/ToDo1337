@@ -1,23 +1,38 @@
 *{
-    margin: 0px;
+    margin: 0;
+}
+#listBody{
+    background-color: rgb(255, 148, 255);
 }
 nav {
-    height: 60px;
+    height: 40px;
     width: auto;
     background: lightgreen;
+   
+    border: solid 1px red;
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
 }
 ul {
+    height:60px;
     
-    padding-left: 0;
-    height: 60px;
+    
+    padding: 0 0 0;
+    
 }
 .navListItem {
     border: solid 1px;
-    color: rgb(33, 13, 207);
+    
     display: inline-block;
-    padding: 22px 5px 8px 5px;
+    height: fit-content;
+    
+   
     font-size: 23px;
+ 
+    padding-top: 10px;
+    
 }
+
 
     
 #main {
