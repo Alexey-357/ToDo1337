@@ -32,6 +32,26 @@ ul {
     padding-top: 10px;
     
 }
+.listLi {
+    display :inline-block;
+    width: 100px;
+}
+.checkbox {
+    position: absolute;
+    left:100px;
+   
+   
+}
+button {
+    width: 113px;
+}
+label {
+    display: block;
+}
+#listForm {
+    height: 1000px;
+}
+
 
 
     
