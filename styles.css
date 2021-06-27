@@ -2,7 +2,7 @@
     margin: 0;
 }
 #listBody{
-    background-color: rgb(255, 148, 255);
+    background-image: url("https://static-cse.canva.com/blob/152424/2.-Free-photos.jpg");
 }
 nav {
     height: 40px;
@@ -36,20 +36,48 @@ ul {
     display :inline-block;
     width: 100px;
 }
-.checkbox {
-    position: absolute;
-    left:100px;
-   
-   
-}
+
 button {
     width: 113px;
+    color: rgb(220, 223, 7);
+    font-size: 30px;
+    font-weight: 900;
+    font-family: "Audiowide", sans-serif;
+    background-image: url("https://images.freeimages.com/images/small-previews/2a7/polly-background-1631651.jpg");
+    background-color: rgb(97, 6, 245);
+    border-radius: 50px;
+    border: 1px black solid;
+    text-shadow: 3px 3px 3px #000000;
+}
+.zubi {
+    color: darkred ;
 }
 label {
-    display: block;
+    display:    block;
+    position: relative;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
 }
 #listForm {
     height: 1000px;
+}
+.Hobby {
+ color: rgb(29, 110, 9);
+}
+.Uborka {
+    color: rgb(161, 95, 8);
+}
+input[type=checkbox] {
+    transform: scale(1.5);
+    position: absolute;
+    top:10px;
+    left: 200px;
+
+ 
+}
+.Meditation {
+    color: rgb(66, 4, 165);
 }
 
 
@@ -67,6 +95,7 @@ label {
     height: 100px;
     display: block;
 }
-#submit {
-    margin-left: 50px;
+button[type=submit] {
+    
+    width:225px;
 }
