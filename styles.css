@@ -98,7 +98,11 @@ background-color: hotpink;
     color: rgb(66, 4, 165);
 }
 
-
+#divWow {
+    height : 410px;
+    width: 260px;
+    background-color: goldenrod;
+}
 
     
 #main {
