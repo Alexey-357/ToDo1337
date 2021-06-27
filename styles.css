@@ -49,8 +49,23 @@ button {
     border: 1px black solid;
     text-shadow: 3px 3px 3px #000000;
 }
-.zubi {
+#zubi {
     color: darkred ;
+}
+#breakfast {
+    color:rgb(239, 241, 81)
+}
+#odin {
+    color:rgb(4, 141, 175)
+}
+#food {
+    color: #15b44a96
+}
+#stretch {
+    color: rgb(133, 36, 36);
+}
+#workout {
+    color: beige;
 }
 label {
     display:    block;
@@ -62,10 +77,10 @@ label {
 #listForm {
     height: 1000px;
 }
-.Hobby {
+#hobby {
  color: rgb(29, 110, 9);
 }
-.Uborka {
+#uborka {
     color: rgb(161, 95, 8);
 }
 input[type=checkbox] {
@@ -76,7 +91,10 @@ input[type=checkbox] {
 
  
 }
-.Meditation {
+input[type=checkbox]::before {
+background-color: hotpink;
+}
+#meditation {
     color: rgb(66, 4, 165);
 }
 
