@@ -51,6 +51,7 @@ button {
 }
 #zubi {
     color: darkred ;
+    
 }
 #breakfast {
     color:rgb(239, 241, 81)
@@ -73,9 +74,13 @@ label {
     font-family: "Audiowide", sans-serif;
     font-weight: 700;
     font-size: 25px;
+    width: 300px;
 }
 #listForm {
-    height: 1000px;
+    height: 450px;
+    position: relative;
+    width: 300px;
+    background-color: goldenrod;
 }
 #hobby {
  color: rgb(29, 110, 9);
@@ -99,9 +104,10 @@ background-color: hotpink;
 }
 
 #divWow {
-    height : 410px;
-    width: 260px;
-    background-color: goldenrod;
+    height : 460px;
+    width: 310px;
+    
+background-image: url("https://www.warcrafttavern.com/wp-content/uploads/2020/11/Moonglade.jpg");    
 }
 
     
@@ -120,4 +126,12 @@ background-color: hotpink;
 button[type=submit] {
     
     width:225px;
+}
+span {
+   color: black;
+   font-weight: bold;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    font-size: 15px;
 }
