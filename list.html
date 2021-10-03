@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <script src="script.js"></script>
    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>List</title>
@@ -27,12 +28,17 @@
     <form id="listForm" name="listForm" method="post">
       
             
-        <label id="zubi">Zubi
-            <input type="checkbox" name="Zubi" > <span>5 XP</span>
+        <label for="zubi" id="zubiLabel">Zubi
+            
+        <input type="checkbox" id="zubi" name="Zubi" > <span>5 XP</span>
         </label>
         <label id="breakfast">Breakfast
             <input type="checkbox" name="Breakfast" > <span>7 XP</span>
         </label>
+        <label id="photo">Photo
+            <input type="checkbox" name="Photo">  <span>10 XP</span> 
+        </label>
+        
         <label id="praktikum">Praktikum
             <input type="checkbox" name="Praktikum">  <span>10 XP</span> 
         </label>
@@ -57,17 +63,16 @@
         <label id="hobby">Hobby
             <input type="checkbox" name="Hobby"> <span>3 XP</span>
         </label>
-        <label id="zubi">Zubi/face
+        <label id="zubiLabel2">Zubi/face
             <input type="checkbox" name="Zubi/face"> <span>5 XP</span>
         </label>
-        <button type="submit">GJ</button>  
+        <button type="button" id="btn" onclick="paintLabels()">GJ</button>
         
     </div>      
     </form>
+    
 
 
 
-
-    <script src="script.js"></script>
 </body>
 </html>

@@ -49,7 +49,7 @@ button {
     border: 1px black solid;
     text-shadow: 3px 3px 3px #000000;
 }
-#zubi {
+label[for="zubi"] {
     color: darkred ;
     
 }
@@ -123,10 +123,14 @@ background-image: url("https://www.warcrafttavern.com/wp-content/uploads/2020/11
     height: 100px;
     display: block;
 }
-button[type=submit] {
+button {
     
     width:225px;
 }
+button:hover {
+    color:rgb(29, 110, 9);
+}
+
 span {
    color: black;
    font-weight: bold;
