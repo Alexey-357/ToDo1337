@@ -4,17 +4,17 @@ form.addEventListener('submit', (event) => {
 });*/
 
 
-function paintLabels(){
+// function paintLabels(){
   
 
-   let lf=document.getElementById('listForm');
-let items=lf.getElementsByTagName("input");
-for(let item of items){
-   if(item.checked == true){
-      item.parentElement.style.background = "green";
-      item.disabled = true;
-   }
+//    let lf=document.getElementById('listForm');
+// let items=lf.getElementsByTagName("input");
+// for(let item of items){
+//    if(item.checked == true){
+//       item.parentElement.style.background = "green";
+//       item.disabled = true;
+//    }
 
-}
-console.log("Hello World");
-}
+// }
+// console.log("Hello World");
+// }

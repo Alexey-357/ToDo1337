@@ -1,40 +1,57 @@
 *{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-#listBody{
-    background-image: url("https://static-cse.canva.com/blob/152424/2.-Free-photos.jpg");
+html,body {
+    height: 100%;
+    width: 100%;
 }
+body {
+   background: beige;   
+
+}
+
+
 nav {
-    height: 40px;
-    width: auto;
-    background: lightgreen;
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: rgb(240,7,109);
+    background: radial-gradient(circle, rgba(240,7,109,1) 0%, rgba(148,187,233,1) 100%); 
    
-    border: solid 1px red;
-    padding: 0px 0px 0px 0px;
-    margin: 0px;
+    
 }
 ul {
-    height:60px;
-    
-    
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+        
     padding: 0 0 0;
     
 }
 .navListItem {
-    border: solid 1px;
-    
-    display: inline-block;
-    height: fit-content;
+   
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ 
+   
     
    
     font-size: 23px;
- 
-    padding-top: 10px;
+ width: 33%;
+ height: 100%;
+ text-align: justify;
     
 }
+#dailyLi{
+    margin-left: 40px;
+}
 .listLi {
-    display :inline-block;
+   
     width: 100px;
 }
 
@@ -112,11 +129,7 @@ background-image: url("https://www.warcrafttavern.com/wp-content/uploads/2020/11
 }
 
     
-#main {
-    background: rgb(243, 252, 211);
-   
-    height: 1000px;
-}
+
 #doWord {
     color:rgb(129, 20, 184)
 }
@@ -139,4 +152,7 @@ span {
     right: 5px;
     bottom: 5px;
     font-size: 15px;
+}
+#listBody{
+    background-image: url("https://static-cse.canva.com/blob/152424/2.-Free-photos.jpg");
 }
