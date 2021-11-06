@@ -1,0 +1,27 @@
+{
+  "name": "ToDo1337-3",
+  "version": "1.0.0",
+  "description": "#App to save notes,to create daily list etc",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexey-357/ToDo1337.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexey-357/ToDo1337/issues"
+  },
+  "homepage": "https://github.com/Alexey-357/ToDo1337#readme",
+  "devDependencies": {
+    "css-loader": "^6.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.60.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
