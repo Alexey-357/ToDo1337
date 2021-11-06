@@ -2,10 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
 }
 html,body {
     height: 100%;
     width: 100%;
+    
+    
 }
 body {
    background: beige;   
@@ -14,13 +17,20 @@ body {
 
 .container {
     width: 100%;
-    height:80%;
+    height:608px;
+    
+}
+#containerAdd {
+    
+    background: black;
+    width:100%;
+    height:30px;
 }
 #containerHome {
     background:rgb(97, 6, 245);
 }
 #containerDaily {
-    background: rgb(33,42,66);
+    background: rgb(253, 255, 157);
 }
 .container-hidden{
     display:none;
@@ -28,21 +38,18 @@ body {
 
 #navbar {
     display: block;
-    height: 10%;
+    height: 76px;
     width: 100%;
-    position: fixed;
-    bottom: 0;
+   
     background: rgb(240,7,109);
     background: radial-gradient(circle, rgba(240,7,109,1) 0%, rgba(148,187,233,1) 100%); 
    
     
 }
-#addButton{
-    position: absolute;
-    bottom: 0;
-}
+
+
 header {
-    height: 10%;
+    height: 76px;
     width: 100%;
     background: rgb(210,7,109);
     background: radial-gradient(#000000, rgba(240,7,109,1) 0%, rgba(148,187,233,1) 100%); 
@@ -57,8 +64,9 @@ header {
 }
 #taskList {
     list-style-type: none;
-    height:80%;
-    display:flex;
+    height:93%;
+    background:rgb(248, 191, 116);
+    
 }
 .navListItem {
    
@@ -98,6 +106,7 @@ border: 1px black solid;
 
 button {
     width: 113px;
+    height: 30px;
     color: rgb(220, 223, 7);
     font-size: 30px;
     font-weight: 900;
@@ -107,93 +116,4 @@ button {
     border-radius: 50px;
     border: 1px black solid;
     text-shadow: 3px 3px 3px #000000;
-}
-label[for="zubi"] {
-    color: darkred ;
-    
-}
-#breakfast {
-    color:rgb(239, 241, 81)
-}
-#odin {
-    color:rgb(4, 141, 175)
-}
-#food {
-    color: #15b44a96
-}
-#stretch {
-    color: rgb(133, 36, 36);
-}
-#workout {
-    color: beige;
-}
-label {
-    display:    block;
-    position: relative;
-    font-family: "Audiowide", sans-serif;
-    font-weight: 700;
-    font-size: 25px;
-    width: 300px;
-}
-#listForm {
-    height: 450px;
-    position: relative;
-    width: 300px;
-    background-color: goldenrod;
-}
-#hobby {
- color: rgb(29, 110, 9);
-}
-#uborka {
-    color: rgb(161, 95, 8);
-}
-input[type=checkbox] {
-    transform: scale(1.5);
-    position: absolute;
-    top:10px;
-    left: 200px;
-
- 
-}
-input[type=checkbox]::before {
-background-color: hotpink;
-}
-#meditation {
-    color: rgb(66, 4, 165);
-}
-
-#divWow {
-    height : 460px;
-    width: 310px;
-    
-background-image: url("https://www.warcrafttavern.com/wp-content/uploads/2020/11/Moonglade.jpg");    
-}
-
-    
-
-#doWord {
-    color:rgb(129, 20, 184)
-}
-#input {
-    height: 100px;
-    display: block;
-}
-button {
-    
-    width:225px;
-}
-button:hover {
-    color:rgb(29, 110, 9);
-}
-
-span {
-   color: black;
-   font-weight: bold;
-    position: absolute;
-    right: 5px;
-    bottom: 5px;
-    font-size: 15px;
-}
-#listBody{
-    background-image: url("https://static-cse.canva.com/blob/152424/2.-Free-photos.jpg");
 }
